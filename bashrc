@@ -78,6 +78,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
+    alias top='htop'
     alias fan='sudo sh ~/.fan'
     alias get='sudo apt-get install $1 -y'
     alias debinstall='sudo dpkg -i $1 && sudo apt-get -f install'
