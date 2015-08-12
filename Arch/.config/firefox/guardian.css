@@ -1,0 +1,45 @@
+@-moz-document domain("theguardian.com") {
+	* {
+		background-color: transparent !important;
+		color: #D2D4D6 !important;
+	}
+
+	body, div, form, table, tbody, tr, td, fieldset, ul, li, a, #content, #bodyContent {
+		background-color: #263238 !important;
+	}
+
+	input, select, button, checkbox {
+		background-color: #263238 !important;
+	}
+
+	a {
+		color: #68c5d2 !important;
+	}
+
+	a:hover {
+		background-color: #263238 !important;
+	}
+
+	a:visited {
+		color: #95B460 !important;
+	}
+
+	.thumb {
+		border-color: #263238 !important;
+	}
+
+	div.vectorTabs, div.vectorTabs ul, div.vectorTabs ul > li, div.vectorTabs ul > li > a {
+		background-color: #263238 !important;
+		background-image: none !important;
+		border: teal !important;
+	}
+
+	img {
+		background-color: #263238 !important;
+	}
+
+	code, pre, pre span, code span {
+		color: #95B460 !important;
+		background: #263238 !important;
+	}
+}

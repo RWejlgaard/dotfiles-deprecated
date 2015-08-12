@@ -1,0 +1,187 @@
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 1223 != 1221, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+[1246:1246:INFO:renderer_main.cc(215)] Running without renderer sandbox
+ERROR: ld.so: object '/home/pwrp/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[1270:1270:INFO:renderer_main.cc(215)] Running without renderer sandbox
+[1276:1276:INFO:renderer_main.cc(215)] Running without renderer sandbox
+[1272:1272:INFO:renderer_main.cc(215)] Running without renderer sandbox
+[1281:1281:INFO:renderer_main.cc(215)] Running without renderer sandbox
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 78: saw unknown, expected number
+/usr/share/themes/dorian-theme-3.10/gtk-2.0/gtkrc:1613: error: unexpected identifier `direction', expected character `}'
+_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_ARB_get_program_binary GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shader_atomic_counters GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_clear_buffer_object GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_invalidate_subdata GL_ARB_program_interface_query GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_multi_bind GL_ARB_seamless_cubemap_per_texture GL_ARB_texture_mirror_clamp_to_edge GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_integer_mix GL_ARB_clip_control GL_ARB_conditional_render_inverted GL_ARB_derivative_control GL_ARB_pipeline_statistics_query GL_EXT_polygon_offset_clamp GL_KHR_context_flush_control 
+Setting maxVSyncInterval to 4
+GL: disabling shadows on Intel 9xx (buggy)
+GL: disabling framebuffer blit, antialiasing, SRGB on Intel
+GL: Detected 1536 MB VRAM
+Initialize engine version: 5.0.3f2 (c28c7860811c)
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/AmplifyMotion.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/AmplifyMotion.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoherentUINet.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoherentUINet.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/ImmutableCollections.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/ImmutableCollections.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Newtonsoft.Json.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/ICSharpCode.SharpZipLib.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Pngcs.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Pngcs.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoroutineScheduler.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoroutineScheduler.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Rx.NET35.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/Rx.NET35.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/StateMachine.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/StateMachine.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/statelessnet20.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/statelessnet20.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Threading.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Threading.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/uLink.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/uLink.dll into Unity Child Domain
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoherentUICommon.dll (this message is harmless)
+Loading /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/CoherentUICommon.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Default vsync count 0
+requesting resize 1280 x 720
+resizing window to 1280 x 720
+Desktop is 3360 x 1050 @ 60 Hz
+Using libudev for joystick management
+
+
+Importing game controller configs
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.dll (this message is harmless)
+FMOD_StudioSystem: detected Unity 5, running on port 9265
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+FMOD Initialized
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) Initializing Coherent UI ver. 2.5.8.0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Coherent UI system initialized..
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.144292 Staring Coherent UI Host ver. 2.5.8.0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.144353 Detected OS: Linux 4.1.4-1-ARCH
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.156524 [1221:1221:INFO:gpu_info_collector_x11.cc(80)] NVCtrl extension does not exist.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.156933 [1221:1221:INFO:UIContentClient.cpp(74)] GPU info collected in host process: 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.156940 [1221:1221:INFO:UIContentClient.cpp(79)] Main GPU vendor 32902 device 1054
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) Coherent UI context initialized successfully
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Warning) PID: 1221 | 1221 09:27:22.183851 Requesting resource read for file:////home/pwrp/.config/unity3d/Ramjet Anvil/Volo Airsport/cookies.dat with internal id 0 reported FAIL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Warning) PID: 1221 | 1239 09:27:22.310853 [1221:1239:WARNING:proxy_service.cc(888)] PAC support disabled because there is no system implementation
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1239 09:27:22.328888 [1221:1239:INFO:gpu_info_collector_x11.cc(80)] NVCtrl extension does not exist.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) View created successfully with id 0
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.342916 Navigating view 0 to coui://uiresources/loading-screen.html
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.493633 [1221:1221:INFO:(0)] GPU info collected in gpu-process process: 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:22.493671 [1221:1221:INFO:(0)] Main GPU vendor 32902 device 1054
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Xml.dll (this message is harmless)
+Platform assembly: /home/pwrp/.local/share/Steam/steamapps/common/Volo Airsport/volo_airsport_Data/Managed/System.Data.dll (this message is harmless)
+The image effect 00_CameraGame (TOD_Scattering) has been disabled as it requires a depth texture.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+requesting resize 1280 x 720
+resizing window to 1280 x 720
+Desktop is 3360 x 1050 @ 60 Hz
+[Coherent UI] (Info) View created successfully with id 1
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) View created successfully with id 2
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) View created successfully with id 3
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) View created successfully with id 4
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:24.172285 Navigating view 1 to coui://uiresources/game-hud.html
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:24.173218 Navigating view 2 to coui://uiresources/notification-list.html
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:24.174771 Navigating view 3 to coui://uiresources/course-editor.html
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+[Coherent UI] (Info) PID: 1221 | 1221 09:27:24.176661 Navigating view 4 to coui://uiresources/options-menu.html
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+WARNING: Shader Unsupported: 'Nature/Terrain/StandardCustom' - All passes removed
+Aeromanager found 9 windzones
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
