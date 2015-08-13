@@ -1,0 +1,52 @@
+mpd_music_dir = "home/dinesh/Music"
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
+mpd_connection_timeout = "5"
+
+audio_output  {
+        type            "fifo"
+        name            "Visualizer feed"
+        path            "/tmp/mpd.fifo"
+        format          "44100:16:2"
+               }
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_in_stereo = yes
+visualizer_output_name = my_fifo
+visualizer_sync_interval = 30
+visualizer_type = spectrum
+visualizer_look = "●●"
+visualizer_color = "cyan"
+
+playlist_disable_highlight_delay = "3"
+message_delay_time = "4"
+header_visibility = "no"
+statusbar_visibility = "yes"
+song_list_format = "{%a - }{%t}|{$5%f$9}$R{$7(%l)$9}"
+song_status_format = "$2%a $1• $3%t $1• $4%b {(Disc %d) }$1• $5%y$1"
+song_window_title_format = "{%a - }{%t}|{%f}"
+song_columns_list_format = "(5f)[white]{l} (33)[cyan]{t} (32)[cyan]{a} (30)[cyan]{b}"
+playlist_display_mode = "columns" (classic/columns)
+browser_display_mode = "columns" (classic/columns)
+titles_visibility = "yes"
+progressbar_look = "─┅─"
+user_interface = "classic" (classic/alternative)
+# media_library_left_column = "a" (possible values: a,y,g,c,p, legend above)
+header_text_scrolling = "yes"
+# fancy_scrolling = "yes"
+display_remaining_time = "yes"
+ignore_leading_the = "yes"
+empty_tag_marker = ""
+enable_window_title = "yes"
+colors_enabled = "yes"
+header_window_color = "white"
+volume_color = "green"
+state_line_color = "yellow"
+state_flags_color = "blue"
+main_window_color = "cyan"
+color1 = "cyan"
+color2 = "blue"
+main_window_highlight_color = "cyan"
+progressbar_color = "yellow"
+statusbar_color = "cyan"
+active_column_color = "cyan"
+display_volume_level = yes
