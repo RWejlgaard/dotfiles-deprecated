@@ -41,13 +41,13 @@ nnoremap <C-j> :resize -1<CR>
 nnoremap <C-k> :resize +1<CR>
 nnoremap <C-l> :vertical resize +1<CR>
 nnoremap <C-h> :vertical resize -1<CR>
-nnoremap <Up> :echo "USE HJKL"<CR>
-nnoremap <Down> :echo "USE HJKL"<CR>
-nnoremap <Left> :echo "USE HJKL"<CR>
-nnoremap <Right> :echo "USE HJKL"<CR>
-"nnoremap <M-h> :wincmd h<CR>
-"nnoremap <M-j> :wincmd j<CR>
-"nnoremap <M-k> :wincmd k<CR>
-"nnoremap <M-l> :wincmd l<CR>
+"nnoremap <Up> :echo "USE HJKL"<CR>
+"nnoremap <Down> :echo "USE HJKL"<CR>
+"nnoremap <Left> :echo "USE HJKL"<CR>
+"nnoremap <Right> :echo "USE HJKL"<CR>
+nnoremap <M-h> :wincmd h<CR>
+nnoremap <M-j> :wincmd j<CR>
+nnoremap <M-k> :wincmd k<CR>
+nnoremap <M-l> :wincmd l<CR>
 
 colorscheme brogrammer
