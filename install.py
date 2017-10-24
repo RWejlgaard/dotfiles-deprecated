@@ -6,9 +6,9 @@ import os
 from shutil import copyfile
 
 __folders__ = [
-    "mkdir -p ~/.config",
-    "mkdir -p ~/.config/nvim",
-    "mkdir -p ~/.fonts"
+    "~/.config",
+    "~/.config/nvim",
+    "~/.fonts"
 ]
 
 __files__ = [
@@ -28,7 +28,7 @@ def install():
 
     for folder in __folders__:
         print("Creating folder: {}".format(folder))
-        os.makedirs(os.path.expanduser(folder))
+        os.makedirs(os.path.expanduser(folder), exist_ok=True)
 
     # copy files as directed in files section
     for key, value in __files__:

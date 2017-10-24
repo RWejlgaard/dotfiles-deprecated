@@ -56,6 +56,7 @@ set laststatus=2
 set encoding=utf-8
 set mouse=a
 set clipboard=unnamed
+set colorcolumn=101
 
 " Syntastic
 set statusline+=%#warningmsg#
