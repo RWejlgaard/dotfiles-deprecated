@@ -53,6 +53,10 @@ set nu
 set ts=4
 set backspace=2
 set laststatus=2
+set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
+set showbreak=\\ "
+set list
+
 set encoding=utf-8
 set mouse=a
 set clipboard=unnamed
@@ -65,6 +69,7 @@ set statusline+=%*
 let g:syntastic_python_checkers = ['pylint']
 let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 5
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_shell = "/bin/sh"
@@ -105,5 +110,5 @@ nnoremap <M-k> :wincmd k<CR>
 nnoremap <M-l> :wincmd l<CR>
 
 colorscheme darcula 
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 
