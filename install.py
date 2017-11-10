@@ -8,6 +8,7 @@ from shutil import copyfile
 __folders__ = [
     "~/.config",
     "~/.config/nvim",
+    "~/.config/fish",
     "~/.fonts"
 ]
 
@@ -16,7 +17,8 @@ __files__ = [
     ("vimrc", "~/.config/nvim/init.vim"),
     ("config.fish", "~/.config/fish/config.fish"),
     ("tmux.conf", "~/.tmux.conf"),
-    ("monaco.ttf", "~/.fonts/monaco.ttf")
+    ("monaco.ttf", "~/.fonts/monaco.ttf"),
+    ("tm", "/usr/bin/tm")
 ]
 
 def install():
