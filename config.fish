@@ -65,6 +65,8 @@ function fish_prompt
         set -g __fish_prompt_normal (set_color normal)
     end
 
+    export fish_color_cwd=blue
+
     set -l color_cwd
     set -l prefix
     set -l suffix
@@ -81,8 +83,13 @@ function fish_prompt
             set suffix '$'
     end
 
-    # PWD
+    # hostname
+    set_color magenta
+    echo -n (hostname)
+    echo -n ' '
     set_color $color_cwd
+
+    #PWD
     echo -n (prompt_pwd)
     set_color normal
 
