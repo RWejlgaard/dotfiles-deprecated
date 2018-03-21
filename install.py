@@ -3,8 +3,12 @@ install.py is used to process the files.ini file in the directory
 and copy and install the dotfiles
 """
 import os
+import sys
 import subprocess
 from shutil import copyfile
+print(sys.argv)
+
+__run_post__ = not sys.argv.__contains__('-n')
 
 __folders__ = [
     "~/.config",
@@ -38,8 +42,9 @@ def install():
         print("Copying {} to {}".format(key, os.path.expanduser(value)))
         copyfile(key, os.path.expanduser(value))
 
-    print("Running post script")
-    subprocess.call(['bash', 'post.sh'])
+    if __run_post__:
+        print("Running post script")
+        subprocess.call(['bash', 'post.sh'])
 
 if __name__ == "__main__":
     install()

@@ -1,19 +1,24 @@
 #!/bin/bash
 
-read -p "Do you want to run post script? " -n 1 -r
-echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-	exit
-fi
+#read -p "Do you want to run post script? " -n 1 -r
+#echo
+#if [[ ! $REPLY =~ ^[Yy]$ ]]
+#then
+#	exit
+#fi
 
-read -p "Install Tmux Manager? " -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]
+if [[ ! -f /usr/bin/tm ]]
 then
-	echo "Copying tm"
-	sudo cp ./tm /usr/bin/tm
-	sudo chmod +x /usr/bin/tm
+	read -p "Install Tmux Manager? " -n 1 -r
+	echo
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		echo "Copying tm"
+		sudo cp ./tm /usr/bin/tm
+		sudo chmod +x /usr/bin/tm
+	fi
+else
+	echo "Tmux Manager already installed"
 fi
 
 read -p "Install packages? " -n 1 -r
