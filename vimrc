@@ -11,13 +11,14 @@ endif
 let vundle_installed=1
 let vundle_readme=s:editor_root . '/bundle/vundle/README.md'
 if !filereadable(vundle_readme)
-    echo "Installing Vundle.."
-    echo ""
+	echo "Installing Vundle.."
+	echo ""
     " silent execute "! mkdir -p ~/." . s:editor_path_name . "/bundle"
     silent call mkdir(s:editor_root . '/bundle', "p")
     silent execute "!git clone https://github.com/gmarik/vundle " . s:editor_root . "/bundle/vundle"
     let vundle_installed=0
 endif
+
 let &rtp = &rtp . ',' . s:editor_root . '/bundle/vundle/'
 call vundle#rc(s:editor_root . '/bundle')
 
@@ -33,6 +34,15 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'marciomazza/vim-brogrammer-theme'
 Plugin 'nathanaelkane/vim-indent-guides'
+
+" Swift
+Plugin 'mitsuse/autocomplete-swift'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'kballard/vim-swift'
+Plugin 'keith/swift.vim'
+Plugin 'maralla/completor.vim'
+Plugin 'maralla/completor-swift'
+
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-pathogen'
@@ -54,8 +64,10 @@ set nu
 set ts=4
 set backspace=2
 set laststatus=2
-set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
+"set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
 set showbreak=\\ "
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+
 set list
 
 set encoding=utf-8
