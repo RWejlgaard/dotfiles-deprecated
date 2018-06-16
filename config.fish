@@ -1,7 +1,7 @@
 export fish_greeting=""
 alias top=htop
-alias vim=vim
-export EDITOR=vim
+alias vim=nvim
+export EDITOR=nvim
 
 function fish_prompt
     if not set -q __fish_git_prompt_show_informative_status

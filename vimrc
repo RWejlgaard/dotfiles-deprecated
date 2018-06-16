@@ -32,6 +32,7 @@ Plugin 'ascenator/L9'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'mhinz/vim-janah'
 Plugin 'marciomazza/vim-brogrammer-theme'
 Plugin 'nathanaelkane/vim-indent-guides'
 
@@ -68,7 +69,7 @@ set laststatus=2
 set showbreak=\\ "
 set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
 
-set list
+"set list
 
 set encoding=utf-8
 set mouse=a
@@ -122,6 +123,6 @@ nnoremap <M-j> :wincmd j<CR>
 nnoremap <M-k> :wincmd k<CR>
 nnoremap <M-l> :wincmd l<CR>
 
-colorscheme darcula 
+colorscheme janah  
 " hi Normal guibg=NONE ctermbg=NONE
 
