@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Invert all colors on a page.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg+CXCWzrQQYyd50WTXXnNGscaTr7Oe1LZ3SNHsSGIprM97aQYPupqy2BcFyRCXn0flh/hwJCTlK5MtcYWmr1jZYitD2KdaiQUa16QO7aynJnqztbKzSltIxZ0LBv0+72829T7GenNZdhDJrmLy2+UlOxunbxQ4YixVDeJTLI2O4egDKJDvRhnkroJRtdlRVGGjmPuM8gvGXTXASI9oRfnmA7enRnEqcWJqGndJYh2JpR9YtVXdvAco3TrUeTp2iPPPu2SPODFUST1MIMJZEHP1iz8BkWXbind5RgyggzR9wool3cqJhjEBl6MSu/G+TE5Fyqzp0d2kS22Za02OWXFwIDAQAB",
+   "manifest_version": 2,
+   "name": "Invert Page Colors",
+   "page_action": {
+      "default_icon": "icons/disabled.png",
+      "default_title": "Invert Page Colors"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.3"
+}

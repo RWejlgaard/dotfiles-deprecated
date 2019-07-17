@@ -1,0 +1,210 @@
+{
+   "aboutMenuItem": {
+      "description": "Section name: About the product",
+      "message": "製品について"
+   },
+   "adBlockingCancel": {
+      "description": "button in adblocking overlay",
+      "message": "キャンセル"
+   },
+   "adBlockingContinue": {
+      "description": "button in adblocking overlay",
+      "message": "続行"
+   },
+   "auto": {
+      "description": "Video quality on YouTube™ is set to automatic.",
+      "message": "自動"
+   },
+   "blockAds": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "広告をブロックする"
+   },
+   "cinemaMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to simulate a cinema screen.",
+      "message": "映画モード"
+   },
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "YouTube の動画を自動的に HD で再生します。"
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "YouTube™ の自動 HD 再生"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "自動 HD 再生の設定"
+   },
+   "fillMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to fill the entire screen.",
+      "message": "フルスクリーンモード"
+   },
+   "globalSettings": {
+      "description": "title in pop up page",
+      "message": "グローバルオプション"
+   },
+   "globalSettingsMenuItem": {
+      "description": "Page name in the Settings area - Global Settings.",
+      "message": "グローバル設定"
+   },
+   "hd": {
+      "description": "Video quality on YouTube™ is set to HD",
+      "message": "HD"
+   },
+   "hideExtras": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player show only player and hide all other items on the page.",
+      "message": "他の項目を非表示にする"
+   },
+   "importantUpdate": {
+      "description": "overlay for GDPR compliance",
+      "message": "重要なアップデート"
+   },
+   "informationButton": {
+      "description": "Button to close information windows.",
+      "message": "OK"
+   },
+   "information_adBlockingSubTitle": {
+      "description": "Tooltip that appears on hover on the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "一部の国で youtube.com の機能と競合する可能性があります。"
+   },
+   "information_adBlockingSubTitleFull": {
+      "description": "Warning about the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "一部の国で YouTube の機能と競合する可能性があります。\n[設定] でいつでも無効にできます。"
+   },
+   "information_adBlockingTitle": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "YouTube™ の広告をブロック"
+   },
+   "information_downloadVideosSubTitle": {
+      "description": "Description about the feature to download videos in HD on Vimeo.",
+      "message": "Vimeo のフル HD 動画をこちらからダウンロードできます。"
+   },
+   "information_downloadVideosTitle": {
+      "description": "Feature name: Video download.",
+      "message": "動画をダウンロードする"
+   },
+   "information_enhancementsButtonsSubTitle": {
+      "description": "Information about the enhancement buttons.",
+      "message": "YouTube プレーヤーの下にあるボタンを使用して、動画の表示スタイルを調整したり変更したりすることができます。"
+   },
+   "information_enhancementsButtonsTitle": {
+      "description": "Section name: Enhancment buttons",
+      "message": "拡張機能ボタン"
+   },
+   "large": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to large. 2) Video quality on YouTube™ is set to Large (480).",
+      "message": "大"
+   },
+   "max": {
+      "description": "Video quality on YouTube™ is set to HD Max",
+      "message": "最大"
+   },
+   "medium": {
+      "description": "Video quality on YouTube™ is set to Medium (360).",
+      "message": "中"
+   },
+   "off": {
+      "description": "toggle in ad blocking overlay",
+      "message": "オフ"
+   },
+   "on": {
+      "description": "toggle in ad blocking overlay",
+      "message": "オン"
+   },
+   "onboardingFirstWalkthroughCTA1": {
+      "description": "First CTA of first walkthrough bubble",
+      "message": "詳しく見る"
+   },
+   "onboardingFirstWalkthroughCTA2": {
+      "description": "Second CTA of first walkthrough bubble",
+      "message": "閉じる"
+   },
+   "onboardingFirstWalkthroughH": {
+      "description": "Headline of first walkthrough bubble",
+      "message": "拡張機能ボタン"
+   },
+   "onboardingFirstWalkthroughP": {
+      "description": "Paragraph of first walkthrough bubble",
+      "message": "これらのボタンを使用すると、視聴体験を大幅に向上できます。"
+   },
+   "onboardingSecondWalkthroughCTA": {
+      "description": "CTA of second walkthrough bubble",
+      "message": "ありがとうございます。承知しました。"
+   },
+   "onboardingSecondWalkthroughH": {
+      "description": "Headlind of second walkthrough bubble",
+      "message": "一度設定するだけ"
+   },
+   "onboardingSecondWalkthroughP": {
+      "description": "First part of Paragraph of second walkthrough bubble",
+      "message": "クリックする"
+   },
+   "onboardingSecondWalkthroughP2": {
+      "description": "second part of Paragraph of second walkthrough bubble",
+      "message": "広告のブロック、動画の品質などのグローバルなデフォルト設定を行います。"
+   },
+   "rateUsMenuItem": {
+      "description": "Section name: A page that allows users to give rating to the product.",
+      "message": "評価する"
+   },
+   "rateUsSubmitRatingButton": {
+      "description": "Submit rating for the product.",
+      "message": "評価を送信する"
+   },
+   "rateUsThanks": {
+      "description": "Confirmation message after rating for product was submitted.",
+      "message": "ありがとうございました！"
+   },
+   "reportBugMenuItem": {
+      "description": "A link to a form that allows users to report a bug.",
+      "message": "バグを報告する"
+   },
+   "setting_adBlockingSwitcher": {
+      "description": "Section name: Ad blocking on YouTube™",
+      "message": "広告ブロック"
+   },
+   "setting_darkThemeSwitcher": {
+      "description": "Section name: Dark theme on YouTube™.",
+      "message": "YouTube™ ブラックテーマ"
+   },
+   "setting_downloadVideosSwitcher": {
+      "description": "Section name: download video. Asterisk refers to more information located in the footer.",
+      "message": "動画をダウンロードする"
+   },
+   "setting_enhancementsButtonsSwitcher": {
+      "description": "Section name: choose to see enhancement buttons below video player on YouTube™.",
+      "message": "拡張機能ボタンを表示する"
+   },
+   "setting_videoPlayerSize": {
+      "description": "Section name: Player size",
+      "message": "YouTube™ プレーヤーのサイズ"
+   },
+   "setting_videoQuality": {
+      "description": "Section name: video quality.",
+      "message": "自動動画品質"
+   },
+   "small": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to Small. 2) Video quality on YouTube™ is set to Small (240).",
+      "message": "小"
+   },
+   "suggestFeatureMenuItem": {
+      "description": "A link to a form that allows users to suggest a feature.",
+      "message": "機能を提案する"
+   },
+   "tooltip_captureScreen": {
+      "description": "Button to take a screenshot of current played frame of video on YouTube™.",
+      "message": "画面をキャプチャする"
+   },
+   "videoInsighsHeadline": {
+      "description": "Name of the feature - video insights",
+      "message": "動画のインサイト"
+   },
+   "videoInsighsInformationOverlayPartOne": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "動画の上にカーソルを移動すると、動画の視聴回数、コメント、高い評価・低い評価の数を確認できるため、視聴前にその動画が良いか悪いかを判断できます。これには、訪問したウェブサイトへのアクセスが必要です（詳細については、"
+   },
+   "videoInsighsInformationOverlayPartTwo": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "プライバシーポリシーをご覧ください"
+   }
+}

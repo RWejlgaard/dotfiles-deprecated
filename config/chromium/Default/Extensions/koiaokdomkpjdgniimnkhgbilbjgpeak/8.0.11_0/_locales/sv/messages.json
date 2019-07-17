@@ -1,0 +1,210 @@
+{
+   "aboutMenuItem": {
+      "description": "Section name: About the product",
+      "message": "Om oss"
+   },
+   "adBlockingCancel": {
+      "description": "button in adblocking overlay",
+      "message": "AVBRYT"
+   },
+   "adBlockingContinue": {
+      "description": "button in adblocking overlay",
+      "message": "FORTSÄTT"
+   },
+   "auto": {
+      "description": "Video quality on YouTube™ is set to automatic.",
+      "message": "Auto"
+   },
+   "blockAds": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "Blockera annonser"
+   },
+   "cinemaMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to simulate a cinema screen.",
+      "message": "Bioläge"
+   },
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "Se till att Youtube-videor spelas i HD automatiskt."
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "Magic Enhancer för YouTube™"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "Inställningar för Magic Enhancer"
+   },
+   "fillMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to fill the entire screen.",
+      "message": "Helskärmsläge"
+   },
+   "globalSettings": {
+      "description": "title in pop up page",
+      "message": "Globala alternativ"
+   },
+   "globalSettingsMenuItem": {
+      "description": "Page name in the Settings area - Global Settings.",
+      "message": "Globala inställningar"
+   },
+   "hd": {
+      "description": "Video quality on YouTube™ is set to HD",
+      "message": "HD"
+   },
+   "hideExtras": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player show only player and hide all other items on the page.",
+      "message": "Göm extrafunktioner"
+   },
+   "importantUpdate": {
+      "description": "overlay for GDPR compliance",
+      "message": "Viktig uppdatering"
+   },
+   "informationButton": {
+      "description": "Button to close information windows.",
+      "message": "BRA! JAG FATTAR."
+   },
+   "information_adBlockingSubTitle": {
+      "description": "Tooltip that appears on hover on the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "Kan uppstå problem med youtube.com i vissa länder."
+   },
+   "information_adBlockingSubTitleFull": {
+      "description": "Warning about the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "Kan uppstå problem med Youtube i vissa länder.\nDu kan avaktivera annonsblockeringen i inställningarna."
+   },
+   "information_adBlockingTitle": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "Annonsblockering på YouTube™"
+   },
+   "information_downloadVideosSubTitle": {
+      "description": "Description about the feature to download videos in HD on Vimeo.",
+      "message": "Du kan ladda ner videor i full HD från Vimeo här."
+   },
+   "information_downloadVideosTitle": {
+      "description": "Feature name: Video download.",
+      "message": "Ladda ner videor"
+   },
+   "information_enhancementsButtonsSubTitle": {
+      "description": "Information about the enhancement buttons.",
+      "message": "Du kan använda knapparna som finns under Youtube-videospelaren för att förbättra och ändra på hur du ser på videor."
+   },
+   "information_enhancementsButtonsTitle": {
+      "description": "Section name: Enhancment buttons",
+      "message": "Förbättringsknappar"
+   },
+   "large": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to large. 2) Video quality on YouTube™ is set to Large (480).",
+      "message": "Large"
+   },
+   "max": {
+      "description": "Video quality on YouTube™ is set to HD Max",
+      "message": "Max"
+   },
+   "medium": {
+      "description": "Video quality on YouTube™ is set to Medium (360).",
+      "message": "Medium"
+   },
+   "off": {
+      "description": "toggle in ad blocking overlay",
+      "message": "AV"
+   },
+   "on": {
+      "description": "toggle in ad blocking overlay",
+      "message": "PÅ"
+   },
+   "onboardingFirstWalkthroughCTA1": {
+      "description": "First CTA of first walkthrough bubble",
+      "message": "Visa mig mer"
+   },
+   "onboardingFirstWalkthroughCTA2": {
+      "description": "Second CTA of first walkthrough bubble",
+      "message": "Stäng"
+   },
+   "onboardingFirstWalkthroughH": {
+      "description": "Headline of first walkthrough bubble",
+      "message": "Förbättringsknappar"
+   },
+   "onboardingFirstWalkthroughP": {
+      "description": "Paragraph of first walkthrough bubble",
+      "message": "Använd dessa för att avsevärt förbättra din tittarupplevelse."
+   },
+   "onboardingSecondWalkthroughCTA": {
+      "description": "CTA of second walkthrough bubble",
+      "message": "Tack! Jag förstår!"
+   },
+   "onboardingSecondWalkthroughH": {
+      "description": "Headlind of second walkthrough bubble",
+      "message": "Konfigurera och glöm"
+   },
+   "onboardingSecondWalkthroughP": {
+      "description": "First part of Paragraph of second walkthrough bubble",
+      "message": "Klicka på"
+   },
+   "onboardingSecondWalkthroughP2": {
+      "description": "second part of Paragraph of second walkthrough bubble",
+      "message": "för att ställa in dina globala standardinställningar: annonsblockering, videokvalitet och mer."
+   },
+   "rateUsMenuItem": {
+      "description": "Section name: A page that allows users to give rating to the product.",
+      "message": "Betygsätt oss"
+   },
+   "rateUsSubmitRatingButton": {
+      "description": "Submit rating for the product.",
+      "message": "SKICKA IN BETYG"
+   },
+   "rateUsThanks": {
+      "description": "Confirmation message after rating for product was submitted.",
+      "message": "Tack!"
+   },
+   "reportBugMenuItem": {
+      "description": "A link to a form that allows users to report a bug.",
+      "message": "Rapportera en bugg"
+   },
+   "setting_adBlockingSwitcher": {
+      "description": "Section name: Ad blocking on YouTube™",
+      "message": "Annonsblockering"
+   },
+   "setting_darkThemeSwitcher": {
+      "description": "Section name: Dark theme on YouTube™.",
+      "message": "YouTube™ Black Theme"
+   },
+   "setting_downloadVideosSwitcher": {
+      "description": "Section name: download video. Asterisk refers to more information located in the footer.",
+      "message": "Ladda ner videor"
+   },
+   "setting_enhancementsButtonsSwitcher": {
+      "description": "Section name: choose to see enhancement buttons below video player on YouTube™.",
+      "message": "Visa förbättringsknappar"
+   },
+   "setting_videoPlayerSize": {
+      "description": "Section name: Player size",
+      "message": "YouTube™-videospelarens storlek"
+   },
+   "setting_videoQuality": {
+      "description": "Section name: video quality.",
+      "message": "Automatiskt videokvalitet"
+   },
+   "small": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to Small. 2) Video quality on YouTube™ is set to Small (240).",
+      "message": "Small"
+   },
+   "suggestFeatureMenuItem": {
+      "description": "A link to a form that allows users to suggest a feature.",
+      "message": "Föreslå en funktion"
+   },
+   "tooltip_captureScreen": {
+      "description": "Button to take a screenshot of current played frame of video on YouTube™.",
+      "message": "Ta skärmbild"
+   },
+   "videoInsighsHeadline": {
+      "description": "Name of the feature - video insights",
+      "message": "Videoinblick"
+   },
+   "videoInsighsInformationOverlayPartOne": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "Håll markören över videon för att se antalet visningar, kommentarer och tummar upp och ner videon har för att se om videon är bra/dålig innan du tittar på den. Vi behöver åtkomst till dina besökta webbplatser (läs mer i vår "
+   },
+   "videoInsighsInformationOverlayPartTwo": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "sekretesspolicy"
+   }
+}

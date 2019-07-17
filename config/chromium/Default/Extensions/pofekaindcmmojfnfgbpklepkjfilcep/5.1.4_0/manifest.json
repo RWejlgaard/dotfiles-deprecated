@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "analytics.js", "lib/background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "popout_for_youtube.css" ],
+      "js": [ "lib/popout_for_youtube.js" ],
+      "matches": [ "http://www.youtube.com/*", "https://www.youtube.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'unsafe-eval' 'self' https://www.youtube.com https://s.ytimg.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8wq7gyeFdLobXtIXbX9gV4bsteBFE1JXDKsqillw/GuyaQjDzt8u5NgC62jNlT3V1voVU8Zno/Sjv3joyhwNXH/OcUa6p2fcvuU9bkOb2HgBKnwjR7IuD/45K0FAm46s7kXKAiEiuCEy70NJecXEJPT/ZpXnj3f9NCYNP3sMdEwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "http://www.youtube.com/*", "https://www.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.1.4"
+}

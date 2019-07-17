@@ -1,0 +1,13 @@
+{
+   "buttonText": {
+      "description": "Help text of the button.",
+      "message": "Pop the video out into a new window."
+   },
+   "description": {
+      "description": "Describe the extension.",
+      "message": "Add a button to YouTube™ to pop the video out into a new resizable window."
+   },
+   "name": {
+      "message": "Popout for YouTube™"
+   }
+}

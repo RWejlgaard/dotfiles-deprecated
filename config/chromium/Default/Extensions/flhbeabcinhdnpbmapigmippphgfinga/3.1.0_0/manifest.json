@@ -1,0 +1,23 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "One-click access to your Trello Boards from your New Tab Page",
+   "homepage_url": "https://boardsfortrello.com/#newtab",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiIk05jEALSyY0voa8FETgDmMaSEx2yEGabr7G9F+OO2MzHSUnbRTkgT7eIo9QuavQwnzWdz+rGOctuFIHeV+5Y8uvqRljwxhKkJBgN22EPwhohSZ8GmmYnHUEBcL91si3GqIvYrP71BCJMy1a8FRMKb/lD8ovU1wguiQPk6Ktv9+lzUMM92a04hVhBmuSF7+16T+Hx0Dh3rf4nLqA4YX15A96y1fo/FrfSALxc160bnLCQoPCpUO2TFcs9yucCSBQBUsTtiOka7hRuDbcQ3KSnHsDJ/cYOM1fcBy+/pGAUdcCNd7n6vLFyPMpfzEG+4hZMFhmydMZ5SSBgk4CrA5KQIDAQAB",
+   "manifest_version": 2,
+   "name": "New Tab Page for Trello",
+   "permissions": [ "storage" ],
+   "short_name": "New Tab Page for Trello",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.0",
+   "web_accessible_resources": [ "images/1x1.gif" ]
+}

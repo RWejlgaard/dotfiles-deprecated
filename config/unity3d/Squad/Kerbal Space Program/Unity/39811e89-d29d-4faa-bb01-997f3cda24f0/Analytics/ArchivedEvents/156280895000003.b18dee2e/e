@@ -1,0 +1,11 @@
+{"type":"analytics.custom.v1","msg":{"ts":1562808950592,"name":"exit_editor","custom_params":{"time":138.1886444091797,"editor":"SPH"}}}
+{"type":"analytics.custom.v1","msg":{"ts":1562808950924,"name":"unity.sceneLoad","custom_params":{"level_name":"loadingBuffer","level_num":1,"total_levels":18}}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1562808951005,"scene_name":"loadingBuffer","scene_index":1,"background_time":45854000,"integrate_time":218664992,"ts_integrate_time":1000,"total_time":305885024}}
+{"type":"analytics.custom.v1","msg":{"ts":1562808951945,"name":"unity.sceneLoad","custom_params":{"level_name":"pFlight4","level_num":7,"total_levels":18}}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1562808952025,"scene_name":"pFlight4","scene_index":7,"background_time":314226976,"integrate_time":219880000,"ts_integrate_time":27110000,"total_time":589872960}}
+{"type":"analytics.custom.v1","msg":{"ts":1562808953481,"name":"vessel_launched","custom_params":{"game_mode":"SANDBOX","launched_from":"Runway","celestial_body":"Kerbin","vessel_part_count":27,"vessel_crew_count":1,"vessel_crew_count_externalseat":0,"steam_fileId":"0"}}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1562808958754,"duration":318,"local_time_offset":-3600000}}
+{"type":"analytics.custom.v1","msg":{"ts":1562809040041,"name":"evachute_deployed","custom_params":{"celestial_body":"Kerbin","kerbal":"Doner Kerman"}}}
+{"type":"analytics.custom.v1","msg":{"ts":1562809064926,"name":"celestialbody_landed","custom_params":{"celestial_body":"Kerbin"}}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1562809080399,"duration":440,"local_time_offset":-3600000}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1562809080399}}

@@ -1,0 +1,210 @@
+{
+   "aboutMenuItem": {
+      "description": "Section name: About the product",
+      "message": "À propos"
+   },
+   "adBlockingCancel": {
+      "description": "button in adblocking overlay",
+      "message": "ANNULER"
+   },
+   "adBlockingContinue": {
+      "description": "button in adblocking overlay",
+      "message": "CONTINUER"
+   },
+   "auto": {
+      "description": "Video quality on YouTube™ is set to automatic.",
+      "message": "Auto"
+   },
+   "blockAds": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "Bloquer les pubs"
+   },
+   "cinemaMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to simulate a cinema screen.",
+      "message": "Mode cinéma"
+   },
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "Lisez vos vidéos automatiquement en HD."
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "Magic Enhancer pour YouTube™"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "Paramètres Magic Enhancer"
+   },
+   "fillMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to fill the entire screen.",
+      "message": "Mode remplissage"
+   },
+   "globalSettings": {
+      "description": "title in pop up page",
+      "message": "Options générales"
+   },
+   "globalSettingsMenuItem": {
+      "description": "Page name in the Settings area - Global Settings.",
+      "message": "Paramètres généraux"
+   },
+   "hd": {
+      "description": "Video quality on YouTube™ is set to HD",
+      "message": "HD"
+   },
+   "hideExtras": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player show only player and hide all other items on the page.",
+      "message": "Masquer autour"
+   },
+   "importantUpdate": {
+      "description": "overlay for GDPR compliance",
+      "message": "Mise à jour importante"
+   },
+   "informationButton": {
+      "description": "Button to close information windows.",
+      "message": "J'AI COMPRIS !"
+   },
+   "information_adBlockingSubTitle": {
+      "description": "Tooltip that appears on hover on the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "Cette fonctionnalité peut entrer en conflit avec YouTube dans certains pays."
+   },
+   "information_adBlockingSubTitleFull": {
+      "description": "Warning about the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "Cette fonctionnalité peut entrer en conflit avec YouTube dans certains pays.\nPour la désactiver, rendez-vous dans les Paramètres."
+   },
+   "information_adBlockingTitle": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "Blocage des pubs sur YouTube™"
+   },
+   "information_downloadVideosSubTitle": {
+      "description": "Description about the feature to download videos in HD on Vimeo.",
+      "message": "Vous pouvez télécharger des vidéos Vimeo full HD ici."
+   },
+   "information_downloadVideosTitle": {
+      "description": "Feature name: Video download.",
+      "message": "Télécharger des vidéos"
+   },
+   "information_enhancementsButtonsSubTitle": {
+      "description": "Information about the enhancement buttons.",
+      "message": "Vous pouvez utiliser les boutons situés sous le lecteur YouTube pour améliorer et personnaliser l'affichage de vos vidéos."
+   },
+   "information_enhancementsButtonsTitle": {
+      "description": "Section name: Enhancment buttons",
+      "message": "Boutons d'amélioration"
+   },
+   "large": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to large. 2) Video quality on YouTube™ is set to Large (480).",
+      "message": "Haute"
+   },
+   "max": {
+      "description": "Video quality on YouTube™ is set to HD Max",
+      "message": "Max"
+   },
+   "medium": {
+      "description": "Video quality on YouTube™ is set to Medium (360).",
+      "message": "Moyenne"
+   },
+   "off": {
+      "description": "toggle in ad blocking overlay",
+      "message": "DÉSACTIVÉ"
+   },
+   "on": {
+      "description": "toggle in ad blocking overlay",
+      "message": "ACTIVÉ"
+   },
+   "onboardingFirstWalkthroughCTA1": {
+      "description": "First CTA of first walkthrough bubble",
+      "message": "En voir plus"
+   },
+   "onboardingFirstWalkthroughCTA2": {
+      "description": "Second CTA of first walkthrough bubble",
+      "message": "Fermer"
+   },
+   "onboardingFirstWalkthroughH": {
+      "description": "Headline of first walkthrough bubble",
+      "message": "Boutons d'amélioration"
+   },
+   "onboardingFirstWalkthroughP": {
+      "description": "Paragraph of first walkthrough bubble",
+      "message": "Utilisez-les pour visionner vos vidéos dans des conditions optimisées."
+   },
+   "onboardingSecondWalkthroughCTA": {
+      "description": "CTA of second walkthrough bubble",
+      "message": "Merci. J'ai compris !"
+   },
+   "onboardingSecondWalkthroughH": {
+      "description": "Headlind of second walkthrough bubble",
+      "message": "Configurez ; vous êtes paré"
+   },
+   "onboardingSecondWalkthroughP": {
+      "description": "First part of Paragraph of second walkthrough bubble",
+      "message": "Cliquez sur"
+   },
+   "onboardingSecondWalkthroughP2": {
+      "description": "second part of Paragraph of second walkthrough bubble",
+      "message": "pour définir vos paramètres généraux par défaut : Blocage des pubs, Qualité vidéo, et bien plus."
+   },
+   "rateUsMenuItem": {
+      "description": "Section name: A page that allows users to give rating to the product.",
+      "message": "Évaluez-nous"
+   },
+   "rateUsSubmitRatingButton": {
+      "description": "Submit rating for the product.",
+      "message": "ENVOYER LA NOTE"
+   },
+   "rateUsThanks": {
+      "description": "Confirmation message after rating for product was submitted.",
+      "message": "Merci !"
+   },
+   "reportBugMenuItem": {
+      "description": "A link to a form that allows users to report a bug.",
+      "message": "Signaler un bug"
+   },
+   "setting_adBlockingSwitcher": {
+      "description": "Section name: Ad blocking on YouTube™",
+      "message": "Blocage des pubs"
+   },
+   "setting_darkThemeSwitcher": {
+      "description": "Section name: Dark theme on YouTube™.",
+      "message": "Thème YouTube™ noir"
+   },
+   "setting_downloadVideosSwitcher": {
+      "description": "Section name: download video. Asterisk refers to more information located in the footer.",
+      "message": "Télécharger des vidéos"
+   },
+   "setting_enhancementsButtonsSwitcher": {
+      "description": "Section name: choose to see enhancement buttons below video player on YouTube™.",
+      "message": "Afficher les boutons d'amélioration"
+   },
+   "setting_videoPlayerSize": {
+      "description": "Section name: Player size",
+      "message": "Taille du lecteur YouTube™"
+   },
+   "setting_videoQuality": {
+      "description": "Section name: video quality.",
+      "message": "Qualité vidéo auto"
+   },
+   "small": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to Small. 2) Video quality on YouTube™ is set to Small (240).",
+      "message": "Basse"
+   },
+   "suggestFeatureMenuItem": {
+      "description": "A link to a form that allows users to suggest a feature.",
+      "message": "Suggérer une fonctionnalité"
+   },
+   "tooltip_captureScreen": {
+      "description": "Button to take a screenshot of current played frame of video on YouTube™.",
+      "message": "Capture d'écran"
+   },
+   "videoInsighsHeadline": {
+      "description": "Name of the feature - video insights",
+      "message": "Données sur les vidéos"
+   },
+   "videoInsighsInformationOverlayPartOne": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "Survolez une vidéo pour voir le nombre de vues, commentaires, mentions J'aime et Je n'aime pas. Vous pourrez ainsi savoir s'il s'agit d'une bonne ou d'une mauvaise vidéo avant même de la regarder. Pour que vous puissiez bénéficier de cette fonctionnalité, nous devons accéder aux sites internet que vous avez visités (apprenez-en plus en lisant notre "
+   },
+   "videoInsighsInformationOverlayPartTwo": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "politique de confidentialité"
+   }
+}

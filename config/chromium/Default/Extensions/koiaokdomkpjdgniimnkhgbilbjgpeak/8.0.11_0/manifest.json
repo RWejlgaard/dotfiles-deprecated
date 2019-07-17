@@ -1,0 +1,43 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "/libs/jquery.js", "/libs/constants.js", "/libs/utils.js", "/libs/ga.js", "/libs/utils.js", "/embeddedVideosStats/bundle.js", "/background/retention.js", "/background/background.js", "/adBlocking/bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "120": "icons/icon120.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_extSettings__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "content/style.css", "content/stylesheets/content.css" ],
+      "js": [ "/content/bundle.js", "libs/constants.js", "libs/utils.js", "download/bundle.js", "libs/youtube.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "all_frames": false,
+      "css": [ "content/stylesheets/embedded.css" ],
+      "js": [ "embedded/bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Enhance your Youtube™ Watching Experience with Auto HD, Video Ad Blocking, Cinema Mode and More.",
+   "homepage_url": "http://www.autohdforyoutube.com/",
+   "icons": {
+      "120": "icons/icon120.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWs8g1r5oRSUc28SV4FCXEzfdiksqcwcsg88jZvxLagdaRydjVZrHwll3gKx8eNWGg/I1IWmX1R5BvNSFBasTcm9tR85BRQLllpCForrw6gcpeivK7DxN3IkV/Fe0grmfLEzkhZH8j0MIwgnamw2JV8cUm6SMFVj0O7rcaQvEFnwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/index.html#global-settings"
+   },
+   "permissions": [ "tabs", "webNavigation", "notifications", "webRequest", "webRequestBlocking", "storage", "\u003Call_urls>", "cookies" ],
+   "short_name": "YouTube™ HD",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.0.11",
+   "web_accessible_resources": [ "images/*", "content/images/*" ]
+}

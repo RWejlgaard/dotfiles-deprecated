@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="1.732%" y2="100%">
+            <stop offset="0%" stop-color="#7A8389" stop-opacity=".504"/>
+            <stop offset="100%" stop-color="#F1F2F3" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="2" height="22" x="15" y="5" fill="#7A8389" rx="1"/>
+        <rect width="2" height="22.933" x="14.815" y="4.565" fill="#7A8389" rx="1" transform="rotate(45 15.815 16.031)"/>
+        <rect width="2" height="22.556" x="14.975" y="4.697" fill="#7A8389" rx="1" transform="scale(-1 1) rotate(45 0 -22.592)"/>
+        <circle cx="16" cy="16" r="8" fill="#D8D8D8"/>
+        <circle cx="16" cy="16" r="8" fill="url(#a)"/>
+        <circle cx="16" cy="16" r="8" stroke="#7A8389" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/>
+        <rect width="22" height="2" x="5" y="15" fill="#7A8389" rx="1"/>
+        <path fill="#7A8389" fill-rule="nonzero" d="M13.42 16.195c0 2.437.94 4.719 2.58 6.429a9.262 9.262 0 0 0 2.58-6.429A9.262 9.262 0 0 0 16 9.767a9.262 9.262 0 0 0-2.58 6.428zm3.233-8.562a11.27 11.27 0 0 1 3.928 8.562 11.27 11.27 0 0 1-3.928 8.563 1 1 0 0 1-1.306 0 11.27 11.27 0 0 1-3.928-8.563 11.27 11.27 0 0 1 3.928-8.562 1 1 0 0 1 1.306 0z"/>
+    </g>
+</svg>

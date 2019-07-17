@@ -1,0 +1,210 @@
+{
+   "aboutMenuItem": {
+      "description": "Section name: About the product",
+      "message": "關於"
+   },
+   "adBlockingCancel": {
+      "description": "button in adblocking overlay",
+      "message": "取消"
+   },
+   "adBlockingContinue": {
+      "description": "button in adblocking overlay",
+      "message": "繼續"
+   },
+   "auto": {
+      "description": "Video quality on YouTube™ is set to automatic.",
+      "message": "自動"
+   },
+   "blockAds": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "封鎖廣告"
+   },
+   "cinemaMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to simulate a cinema screen.",
+      "message": "劇院模式"
+   },
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "讓 YouTube 自動播放高畫質 (HD) 影片。"
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "YouTube™ 專用效果增強精靈"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "效果增強精靈設定"
+   },
+   "fillMode": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player to fill the entire screen.",
+      "message": "填充模式"
+   },
+   "globalSettings": {
+      "description": "title in pop up page",
+      "message": "通用選項"
+   },
+   "globalSettingsMenuItem": {
+      "description": "Page name in the Settings area - Global Settings.",
+      "message": "通用設定"
+   },
+   "hd": {
+      "description": "Video quality on YouTube™ is set to HD",
+      "message": "高畫質"
+   },
+   "hideExtras": {
+      "description": "Part of the video player enhancement buttons - changes the view of the player show only player and hide all other items on the page.",
+      "message": "隱藏額外項目"
+   },
+   "importantUpdate": {
+      "description": "overlay for GDPR compliance",
+      "message": "重要更新"
+   },
+   "informationButton": {
+      "description": "Button to close information windows.",
+      "message": "很好，知道了！"
+   },
+   "information_adBlockingSubTitle": {
+      "description": "Tooltip that appears on hover on the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "在某些國家/地區可能會與 youtube.com 發生衝突。"
+   },
+   "information_adBlockingSubTitleFull": {
+      "description": "Warning about the Ad Blocking on YouTube™ feature - might be conflicting on some countries.",
+      "message": "在某些國家/地區可能會與 Youtube 功能發生衝突。\n隨時可在「設定」中停用。"
+   },
+   "information_adBlockingTitle": {
+      "description": "Describes the Ad Blocking on YouTube™ feature.",
+      "message": "YouTube™ 封鎖廣告功能"
+   },
+   "information_downloadVideosSubTitle": {
+      "description": "Description about the feature to download videos in HD on Vimeo.",
+      "message": "您可以在這裡從 Vimeo 下載 Full HD 影片。"
+   },
+   "information_downloadVideosTitle": {
+      "description": "Feature name: Video download.",
+      "message": "下載影片"
+   },
+   "information_enhancementsButtonsSubTitle": {
+      "description": "Information about the enhancement buttons.",
+      "message": "您可以使用 YouTube 播放器下方的按鈕增強及改變影片觀看模式。"
+   },
+   "information_enhancementsButtonsTitle": {
+      "description": "Section name: Enhancment buttons",
+      "message": "增強效果按鈕"
+   },
+   "large": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to large. 2) Video quality on YouTube™ is set to Large (480).",
+      "message": "大"
+   },
+   "max": {
+      "description": "Video quality on YouTube™ is set to HD Max",
+      "message": "最大"
+   },
+   "medium": {
+      "description": "Video quality on YouTube™ is set to Medium (360).",
+      "message": "中"
+   },
+   "off": {
+      "description": "toggle in ad blocking overlay",
+      "message": "關"
+   },
+   "on": {
+      "description": "toggle in ad blocking overlay",
+      "message": "開"
+   },
+   "onboardingFirstWalkthroughCTA1": {
+      "description": "First CTA of first walkthrough bubble",
+      "message": "顯示更多"
+   },
+   "onboardingFirstWalkthroughCTA2": {
+      "description": "Second CTA of first walkthrough bubble",
+      "message": "關閉"
+   },
+   "onboardingFirstWalkthroughH": {
+      "description": "Headline of first walkthrough bubble",
+      "message": "增強效果按鈕"
+   },
+   "onboardingFirstWalkthroughP": {
+      "description": "Paragraph of first walkthrough bubble",
+      "message": "使用這些顯著改善您的觀看體驗。"
+   },
+   "onboardingSecondWalkthroughCTA": {
+      "description": "CTA of second walkthrough bubble",
+      "message": "謝謝。明白了！"
+   },
+   "onboardingSecondWalkthroughH": {
+      "description": "Headlind of second walkthrough bubble",
+      "message": "只需設定一次"
+   },
+   "onboardingSecondWalkthroughP": {
+      "description": "First part of Paragraph of second walkthrough bubble",
+      "message": "按一下"
+   },
+   "onboardingSecondWalkthroughP2": {
+      "description": "second part of Paragraph of second walkthrough bubble",
+      "message": "設定預設的通用設定：封鎖廣告、影片品質及其他設定。"
+   },
+   "rateUsMenuItem": {
+      "description": "Section name: A page that allows users to give rating to the product.",
+      "message": "給我們打分數"
+   },
+   "rateUsSubmitRatingButton": {
+      "description": "Submit rating for the product.",
+      "message": "送出評分"
+   },
+   "rateUsThanks": {
+      "description": "Confirmation message after rating for product was submitted.",
+      "message": "謝謝！"
+   },
+   "reportBugMenuItem": {
+      "description": "A link to a form that allows users to report a bug.",
+      "message": "通報錯誤"
+   },
+   "setting_adBlockingSwitcher": {
+      "description": "Section name: Ad blocking on YouTube™",
+      "message": "封鎖廣告"
+   },
+   "setting_darkThemeSwitcher": {
+      "description": "Section name: Dark theme on YouTube™.",
+      "message": "YouTube™ 黑色主題"
+   },
+   "setting_downloadVideosSwitcher": {
+      "description": "Section name: download video. Asterisk refers to more information located in the footer.",
+      "message": "下載影片"
+   },
+   "setting_enhancementsButtonsSwitcher": {
+      "description": "Section name: choose to see enhancement buttons below video player on YouTube™.",
+      "message": "顯示增強效果按鈕"
+   },
+   "setting_videoPlayerSize": {
+      "description": "Section name: Player size",
+      "message": "YouTube™ 播放器大小"
+   },
+   "setting_videoQuality": {
+      "description": "Section name: video quality.",
+      "message": "自動調整影片品質"
+   },
+   "small": {
+      "description": "String is used in two places: 1) Video player size on YouTube™ is set to Small. 2) Video quality on YouTube™ is set to Small (240).",
+      "message": "小"
+   },
+   "suggestFeatureMenuItem": {
+      "description": "A link to a form that allows users to suggest a feature.",
+      "message": "建議功能"
+   },
+   "tooltip_captureScreen": {
+      "description": "Button to take a screenshot of current played frame of video on YouTube™.",
+      "message": "拍攝螢幕截圖"
+   },
+   "videoInsighsHeadline": {
+      "description": "Name of the feature - video insights",
+      "message": "影片資訊"
+   },
+   "videoInsighsInformationOverlayPartOne": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "將滑鼠指標停留在影片上，檢視影片的檢視、留言、按贊與倒喝采次數，以在觀看影片之前判斷影片好壞。這要求訪問您瀏覽過的網站（請閱讀我們的"
+   },
+   "videoInsighsInformationOverlayPartTwo": {
+      "description": "Information overlay for the feature - video insights. Do not translate anything insights the link tag - \u003Ca href...> - just the word 'Privacy Policy'",
+      "message": "隱私權政策以瞭解更多內容"
+   }
+}

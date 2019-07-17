@@ -1,0 +1,131 @@
+.main--ViqHN {
+  align-items: center;
+  background-color: #8c29d7;
+  color: #fff;
+  display: flex;
+  font-size: 1.3em;
+  font-weight: 200;
+  height: 34px;
+  padding: 0px 11px;
+  justify-content: space-between; }
+
+.imgDiv--FwtP0 {
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+  .imgDiv--FwtP0 img {
+    height: 18px; }
+
+.me-fill-mode #masthead-container {
+  display: none !important; }
+
+.me-fill-mode #page-manager {
+  margin-top: 0 !important; }
+
+.me-fill-mode ytp-size-button path, .me-fill-mode .ytp-size-button path {
+  fill: #8c29d7 !important; }
+
+.me-fill-mode ytd-watch-flexy .html5-video-player {
+  height: 100vh !important; }
+
+.me-fill-mode ytd-watch-flexy .html5-main-video {
+  height: 100vh !important;
+  width: 100vw !important;
+  left: 0px !important;
+  top: 0px !important; }
+
+.me-fill-mode ytd-watch-flexy #secondary {
+  display: none !important; }
+
+.me-fill-mode ytd-watch-flexy #primary {
+  padding: unset !important;
+  margin: unset !important; }
+
+.me-fill-mode ytd-watch-flexy .ytp-chrome-bottom {
+  position: relative !important;
+  top: calc(100vh - 40px) !important;
+  left: 0px !important;
+  margin: 0 auto !important;
+  width: 100vw !important; }
+
+.tooltip--2Q4la {
+  width: 10px;
+  background: red; }
+
+.switcher--3L32X {
+  position: relative;
+  width: 28px;
+  height: 16px; }
+  .switcher--3L32X .input--2PrMq {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); }
+    .switcher--3L32X .input--2PrMq:checked + .slider--2-dwY {
+      background-image: linear-gradient(to top, #fb00fd, #802dd3); }
+    .switcher--3L32X .input--2PrMq:checked + .slider--2-dwY:before {
+      transform: translateX(12px); }
+    .switcher--3L32X .input--2PrMq:focus + .slider--2-dwY {
+      box-shadow: 0 0 1px #2196F3; }
+  .switcher--3L32X .slider--2-dwY {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d8d8d8;
+    transition: .4s;
+    border-radius: 9px; }
+    .switcher--3L32X .slider--2-dwY:before {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      position: absolute;
+      left: 2px;
+      bottom: 2px;
+      background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.17);
+      content: '';
+      transition: .4s; }
+
+.Notification__Icon--137w6, .Notification__Title--1wN9A, .Notification__Content--1ZF6j, .Notification__Link--1aLT4, .Notification__Button--3b1i4 {
+  margin-top: 16px; }
+
+.Notification--1f0FE {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito, 'serif';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff; }
+  .Notification__Icon--137w6 {
+    width: 24px;
+    height: 24px;
+    background: url("chrome-extension://__MSG_@@extension_id__/popup/images/megaphone.svg") no-repeat; }
+  .Notification__Title--1wN9A {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a3238; }
+  .Notification__Content--1ZF6j {
+    font-size: 13px;
+    color: #272933;
+    text-align: center;
+    line-height: 1.69; }
+  .Notification__Link--1aLT4 {
+    color: #8c29d7;
+    text-decoration: none; }
+  .Notification__Button--3b1i4 {
+    padding: 10px 22px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #f80b6b;
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    cursor: pointer; }
+
