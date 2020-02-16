@@ -1,110 +1,39 @@
 export fish_greeting=""
+export EDITOR=emacs
+
 alias top=htop
-alias get="sudo xbps-install"
-alias search="xbps-query -Rs"
-alias vim=nvim
-export EDITOR=nvim
-export PATH="$PATH:/usr/share/java/bin"
-export PATH="$PATH:/usr/local/texlive/2019/bin/x86_64-linux"
+alias get="brew install"
+alias search="brew search"
+alias vim=emacs
+alias ls="ls -1GAF"
+alias cat="bat"
+alias ping="prettyping --nolegend"
 
+alias k="kubectl"
+alias kc="kubectl config use-context"
+alias kp="kubectl get pods -A"
+alias jupiter_auth="aws-azure-login --profile jupiter-auth --mode=gui"
 
-function fish_prompt
-    if not set -q __fish_git_prompt_show_informative_status
-        set -g __fish_git_prompt_show_informative_status 1
-    end
-    if not set -q __fish_git_prompt_hide_untrackedfiles
-        set -g __fish_git_prompt_hide_untrackedfiles 1
-    end
+export PATH="$PATH:/Users/Rasmus.Wejlgaard/Library/Python/3.7/bin"
+export PATH="$PATH:/Users/Rasmus.Wejlgaard/homebrew/bin"
+export PATH="$PATH:/Users/Rasmus.Wejlgaard/bin"
+export HOMEBREW_CASK_OPTS="--appdir=/Users/Rasmus.Wejlgaard/apps"
+export HOMEBREW_TEMP="/Users/Rasmus.Wejlgaard/brewtemp"
 
-    if not set -q __fish_git_prompt_color_branch
-        set -g __fish_git_prompt_color_branch magenta --bold
-    end
-    if not set -q __fish_git_prompt_showupstream
-        set -g __fish_git_prompt_showupstream "informative"
-    end
-    if not set -q __fish_git_prompt_char_upstream_ahead
-        set -g __fish_git_prompt_char_upstream_ahead "↑"
-    end
-    if not set -q __fish_git_prompt_char_upstream_behind
-        set -g __fish_git_prompt_char_upstream_behind "↓"
-    end
-    if not set -q __fish_git_prompt_char_upstream_prefix
-        set -g __fish_git_prompt_char_upstream_prefix ""
-    end
+#set -g theme_display_k8s_context no
 
-    if not set -q __fish_git_prompt_char_stagedstate
-        set -g __fish_git_prompt_char_stagedstate "●"
-    end
-    if not set -q __fish_git_prompt_char_dirtystate
-        set -g __fish_git_prompt_char_dirtystate "✚"
-    end
-    if not set -q __fish_git_prompt_char_untrackedfiles
-        set -g __fish_git_prompt_char_untrackedfiles "…"
-    end
-    if not set -q __fish_git_prompt_char_conflictedstate
-        set -g __fish_git_prompt_char_conflictedstate "✖"
-    end
-    if not set -q __fish_git_prompt_char_cleanstate
-        set -g __fish_git_prompt_char_cleanstate "✔"
-    end
+#test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish ; or true
 
-    if not set -q __fish_git_prompt_color_dirtystate
-        set -g __fish_git_prompt_color_dirtystate blue
-    end
-    if not set -q __fish_git_prompt_color_stagedstate
-        set -g __fish_git_prompt_color_stagedstate yellow
-    end
-    if not set -q __fish_git_prompt_color_invalidstate
-        set -g __fish_git_prompt_color_invalidstate red
-    end
-    if not set -q __fish_git_prompt_color_untrackedfiles
-        set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
-    end
-    if not set -q __fish_git_prompt_color_cleanstate
-        set -g __fish_git_prompt_color_cleanstate green --bold
-    end
+#function iterm2_print_user_vars
+#    iterm2_set_user_var kubeContext (kubectl config current-context)
+#end
 
-    set -l last_status $status
-
-    if not set -q __fish_prompt_normal
-        set -g __fish_prompt_normal (set_color normal)
-    end
-
-    export fish_color_cwd=blue
-
-    set -l color_cwd
-    set -l prefix
-    set -l suffix
-    switch $USER
-        case root toor
-            if set -q fish_color_cwd_root
-                set color_cwd $fish_color_cwd_root
-            else
-                set color_cwd $fish_color_cwd
-            end
-            set suffix '#'
-        case '*'
-            set color_cwd $fish_color_cwd
-            set suffix '$'
-    end
-
-    # hostname
-    set_color magenta
-    echo -n (hostname)
-    echo -n ' '
-    set_color $color_cwd
-
-    #PWD
-    echo -n (prompt_pwd)
-    set_color normal
-
-    printf '%s ' (__fish_vcs_prompt)
-
-    if not test $last_status -eq 0
-        set_color $fish_color_error
-    end
-
-    echo -n "$suffix "
-
-    set_color normal
+function update-ca-certificates
+    security find-certificate -a -p /Library/Keychains/System.keychain > /Users/Rasmus.Wejlgaard/.ca-bundle.crt
+    security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain >> /Users/Rasmus.Wejlgaard/.ca-bundle.crt
 end
+
+update-ca-certificates
+
+export REQUESTS_CA_BUNDLE=/Users/Rasmus.Wejlgaard/.ca-bundle.crt
+export NODE_EXTRA_CA_CERTS=/Users/Rasmus.Wejlgaard/.ca-bundle.crt
